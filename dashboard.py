@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your dataset into a pandas DataFrame (replace 'your_dataset.csv' with your actual CSV file)
-df = pd.read_csv('https://raw.githubusercontent.com/YourGitHubUsername/YourRepository/main/your_dataset.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/nithara123/datasciencecw2/main/cleaned_dataset.csv')
 
 # Display the DataFrame
 st.write("Initial data:")

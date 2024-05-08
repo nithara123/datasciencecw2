@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib
-matplotlib.use('Agg')  
+matplotlib.use('Agg')  # Add this line
 import matplotlib.pyplot as plt
 
 # Load your dataset into a pandas DataFrame (replace 'your_dataset.csv' with your actual CSV file)
@@ -42,4 +42,3 @@ plt.xlabel('Quantity')
 plt.ylabel('Frequency')
 plt.title('Histogram - Sales Quantity Distribution')
 st.pyplot(fig_hist)
-
